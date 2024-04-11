@@ -1,0 +1,113 @@
+/* new-account */
+
+.containerOne {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1.5px solid #ccc;
+    /* border-radius: 10px; */
+    padding: 20px;
+    border-radius: none;
+    max-width: 350px;
+    margin: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+    font-size: 14px;
+    /* background: #7d2ae8; */
+}
+
+.input-group {
+    position: relative;
+    margin: 14px 0;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: rgb(90, 32, 130);
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 14px;
+    color: #1d1c1c;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #848181;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: 0;
+    font-size: 12px;
+    background: #fff;
+}
+
+.agency-text {
+    color: red;
+    margin-top: 10px;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    gap: 0.5rem;
+    margin-bottom: 50%;
+}
+
+.toggle-buttons input[type=radio] {
+    font-size: larger;
+    /* appearance: none; */
+    border: 1.6px solid purple;
+    border-radius: 50%;
+    color: purple;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.toggle-buttons input[type=radio]:checked {
+    color: rgb(73, 36, 132);
+}
+
+.toggle-button {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.create-account-button {
+    background: rgb(114, 41, 156);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    bottom: 0;
+    right: 0;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

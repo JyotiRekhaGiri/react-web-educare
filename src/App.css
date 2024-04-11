@@ -1,0 +1,58 @@
+body {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 94vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+p {
+  align-self: flex-start;
+  margin: 0;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* Align buttons from the start */
+  width: 100%;
+  /* Occupy full width */
+}
+
+.buttons button {
+  min-width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center text */
+}
+
+.btn1 {
+  background: purple;
+  color: #fff;
+}
+
+.btn2 {
+  background: #ccc;
+  color: rgb(45, 44, 44);
+}
