@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-web-educare/static/css/main.3de5c38b.css",
+    "main.js": "/react-web-educare/static/js/main.afac122c.js",
+    "index.html": "/react-web-educare/index.html",
+    "main.3de5c38b.css.map": "/react-web-educare/static/css/main.3de5c38b.css.map",
+    "main.afac122c.js.map": "/react-web-educare/static/js/main.afac122c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3de5c38b.css",
+    "static/js/main.afac122c.js"
+  ]
+}
